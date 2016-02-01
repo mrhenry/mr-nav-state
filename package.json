@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/mrhenry/mr-nav-state/issues"
   },
-  "homepage": "https://github.com/mrhenry/mr-nav-state#readme"
+  "homepage": "https://github.com/mrhenry/mr-nav-state#readme",
+  "dependencies": {
+    "fd-angular-core": "1.x.x"
+  },
+  "jspm": {
+    "jspmNodeConversion": false,
+    "format": "es6",
+    "main": "nav-state.js",
+    "dependencies": {
+      "fd-angular-core": "npm:fd-angular-core"
+    }
+  }
 }
