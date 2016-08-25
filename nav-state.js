@@ -32,7 +32,7 @@ export class MrNavStateController {
 			this.$element.toggleClass('is-active', url === match);
 		} else {
 			let validNextCharacters = [undefined, '?', '/', '#'];
-			this.$element.toggleClass('is-active', url.indexOf(match) === 0 && validNextCharacters.indexOf(url[match.length]) > -1);
+			this.$element.toggleClass('is-active', url.indexOf(match) === 0 && (match === '/' || validNextCharacters.indexOf(url[match.length]) > -1));
 		}
 	}
 

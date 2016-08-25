@@ -1,6 +1,6 @@
 {
   "name": "mr-nav-state",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Small Angular.js directive that sets an `is-active` class on elements that have (or contain) an `[href=\"currentUrl\"]`",
   "main": "nav-state.js",
   "scripts": {
